@@ -42,6 +42,8 @@ import matlab from '../app/assets/svg/skills/matlab.svg';
 import memsql from '../app/assets/svg/skills/memsql.svg';
 import microsoftoffice from '../app/assets/svg/skills/microsoftoffice.svg';
 import mongoDB from '../app/assets/svg/skills/mongoDB.svg';
+import sharepoint from "../app/assets/svg/skills/sharepoint_cleaned.svg"
+import spfx from "../app/assets/svg/skills/spfx_vectorized.svg";
 import mysql from '../app/assets/svg/skills/mysql.svg';
 import nextJS from '../app/assets/svg/skills/nextJS.svg';
 import nginx from '../app/assets/svg/skills/nginx.svg';
@@ -132,6 +134,10 @@ export const skillsImage = (skill) => {
       return memsql;
     case 'mongodb':
       return mongoDB;
+    case 'sharepoint':
+      return sharepoint;
+    case 'spfx':
+        return spfx;
     case 'mysql':
       return mysql;
     case 'postgresql':
