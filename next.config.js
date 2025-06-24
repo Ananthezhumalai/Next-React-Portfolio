@@ -1,8 +1,9 @@
 const path = require('path');
-const withNetlify = require('@netlify/next/plugin');
+// const withNetlify = require('@netlify/next/plugin'); // ✅ this line is critical
 
-module.exports = withNetlify({
-  output: 'export',
+
+module.exports = ({
+  // output: 'export',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
