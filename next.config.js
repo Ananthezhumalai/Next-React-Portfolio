@@ -1,5 +1,6 @@
-const path = require('path')
- const { withNetlify } = require('@netlify/next');
+const path = require('path');
+const withNetlify = require('@netlify/next/plugin');
+
 module.exports = withNetlify({
   output: 'export',
   sassOptions: {
@@ -24,4 +25,4 @@ module.exports = withNetlify({
       },
     ],
   },
-})
+});
