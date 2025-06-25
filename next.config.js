@@ -1,13 +1,13 @@
 const path = require('path');
-// const withNetlify = require('@netlify/next/plugin'); // ✅ this line is critical
 
-
-module.exports = ({
-  // output: 'export',
+module.exports = {
+  output: 'export',
+  trailingSlash: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -26,4 +26,4 @@ module.exports = ({
       },
     ],
   },
-});
+};
