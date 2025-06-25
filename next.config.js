@@ -3,7 +3,7 @@ const path = require('path');
 
 
 module.exports = ({
-  output: 'export',
+  // output: 'export',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
