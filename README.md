@@ -160,7 +160,7 @@ export const personalData = {
   address: "Dhaka, Bangladesh",
   github: "https://github.com/said7388",
   facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
+   linkedIn: 'https://www.linkedin.com/in/ananth-ezhumalai-07b8a7224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/',
   twitter: "https://twitter.com/said7388",
   stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
   leetcode: "https://leetcode.com/said3812/",
